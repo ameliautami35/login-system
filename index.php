@@ -54,6 +54,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <input type="hidden" id="encryptedPassword" name="password">
         <button type="submit">Login</button>
     </form>
+
+    <!-- Tombol Login dengan Google -->
+    <a href="http://localhost:5000/auth/google">
+        <button style="background-color: white; border: 1px solid #ccc; padding: 10px; cursor: pointer;">
+            <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google Logo" width="20">
+            Login dengan Google
+        </button>
+    </a>
+
     <p>Belum punya akun? <a href="register.php">Daftar disini</a></p>
 </body>
 </html>
